@@ -2,12 +2,12 @@ import {TypeOrmModuleOptions} from "@nestjs/typeorm";
 import { ConfigService } from "@nestjs/config";
 
 export const getTypeOrmConfig = async (configService: ConfigService): Promise<TypeOrmModuleOptions> => ({
-    type: "postgres",
-    host: 'localhost',
+    type: ,
+    host: ,
     port: 5432,
-    username: 'postgres',
-    password: 'MarKo327520091310',
-    database: 'utube',
+    username: ,
+    password: ,
+    database: ,
     autoLoadEntities: true,
     synchronize: true
 })
